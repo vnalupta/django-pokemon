@@ -1,0 +1,15 @@
+@import "../styles/tokens.module";
+
+.container {
+    background-color: $daisy;
+    border-radius: $basePadding * 8 $basePadding * 8 0 0 ;
+    flex-grow: 1;
+
+    // temp
+    padding: $basePadding * 4;
+}
+.flexrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

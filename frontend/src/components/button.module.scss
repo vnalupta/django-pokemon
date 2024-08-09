@@ -1,0 +1,21 @@
+@import "../styles/tokens.module";
+
+.button {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 25px;
+    cursor: pointer;
+
+    border: 0 none;
+    border-radius: $basePadding * 3;
+
+    background: $hyacinth;
+    color: $daisy;
+    text-decoration: none;
+
+    transition: 100ms ease-in opacity;
+    &:hover {
+        opacity: .9;
+    }
+}

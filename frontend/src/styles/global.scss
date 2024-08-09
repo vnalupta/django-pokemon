@@ -1,0 +1,76 @@
+@import "./normalize.css";
+@import "./tokens.module";
+
+/*
+ * FONT
+ **/
+ $fontSize: 16px;
+ $fontFamily: Arial, sans-serif;
+ $headingFontFamily: Georgia, serif;
+
+/*
+ * GLOBALS
+ **/
+body {
+    overflow-x: hidden;
+}
+html, body {
+    font-family: $fontFamily;
+    font-size: $fontSize;
+}
+body {
+    background: $hydrangea;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main {
+    // This is the cleanest way to
+    // have the bottom Sheet take up
+    // all available space
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+h1, h2, h3, h4, h5, dt {
+    line-height: 1.15;
+    font-family: $headingFontFamily;
+}
+p {
+    line-height: 1.5;
+    color: $hellebore;
+}
+
+/*
+ * Utilities
+ **/
+.box {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 375px;
+}
+.copy--large {
+    @extend h2;
+    font-weight: 700;
+    color: $pansy;
+}
+.label {
+    color: $blacksage;
+    letter-spacing: .2px; // should this be REMs?
+    font-weight: 700;
+}
+
+/*
+ * https://typescale.com/
+ * 1.125 Major Second scale
+ */
+
+h1, .h1 { font-size: 3.052rem; }
+h2, .h2 { font-size: 1.75rem; }
+h3, .h3 { font-size: 1.602rem; }
+h4, .h4 { font-size: 1.424rem; }
+p, .body { font-size: 1rem; }
+b { font-weight: 500}
+a { color: $hyacinth }

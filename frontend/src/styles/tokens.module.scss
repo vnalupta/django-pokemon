@@ -1,0 +1,28 @@
+/*
+ * UNITS
+ **/
+$basePadding: 4px;
+
+/*
+ * COLORS
+ **/
+$daisy: #ffffff;
+$hydrangea: #F2F8FF;
+$mooncarrot: #E7E9EF;
+$hyacinth: #3667E9;
+$pansy: #13126C;
+$blacksage: #65657B;
+$hellebore: #171731;
+$marigold: #C34648;
+
+:export {
+    daisy : $daisy;
+    hydrangea : $hydrangea;
+    mooncarrot : $mooncarrot;
+    hyacinth : $hyacinth;
+    pansy : $pansy;
+    blacksage: $blacksage;
+    hellebore : $hellebore;
+    marigold : $marigold;
+}
+

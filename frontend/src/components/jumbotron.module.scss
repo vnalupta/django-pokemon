@@ -1,0 +1,5 @@
+@import "../styles/tokens.module";
+
+.container {
+    padding: $basePadding * 20 0 $basePadding * 7 0;
+}
